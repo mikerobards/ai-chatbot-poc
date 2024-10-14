@@ -1,5 +1,5 @@
 {
-  "name": "Scrim-s05o81k",
+  "name": "aichatbot",
   "description": "https://v2.scrimba.com/the-ai-engineer-path-c02v/~021",
   "scripts": {
     "start": "vite",
@@ -8,7 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "openai": "^4.67.3",
     "vite": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "supabase": "^1.204.3"
+  }
 }
